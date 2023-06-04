@@ -1,0 +1,277 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.cont{
+    
+    overflow: hidden;
+}
+#navbar{
+    height:59px;
+  background-color:hotpink;
+    display: flex;
+    opacity: 0.6;
+    
+    overflow:hidden;
+}
+.sticky{
+    position:sticky;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    position:absolute;
+    left:200px;
+    padding:10px;
+    margin-left: 50px;
+
+}
+img{
+    height:59px;
+}
+ul li{
+    list-style: none;
+    font-size:1.5rem;
+}
+ul li a{
+    text-decoration: none;
+    align-items: center;
+    color:white;
+    font-weight: bold;
+ display: block;
+ padding:5px 10px;
+ border-radius: 20px; 
+}
+a:hover{
+    color:red;
+    font-weight: bold;
+    background-color: white;
+}
+.visit{
+    position: relative;
+    cursor:pointer;
+    left:800px;
+    border:3px solid black;
+    border-radius: 14px;
+    padding:4px;
+    background-color: red;
+    color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    animation-name:btn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+
+}
+.visite{
+    position: relative;
+    cursor:pointer;
+    left:800px;
+    border:3px solid black;
+    border-radius: 14px;
+    padding:4px;
+    background-color: red;
+    color:whitesmoke;
+    font-style: italic;
+    font-weight: bold;
+    animation-name: spn;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+}
+/*Home section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:3px 200px;
+    align-content: center;
+    justify-content: center;
+    background-image: url('img2.jpg');
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+    position:relative;
+    bottom:20px;
+}
+h1{
+    text-align: center;
+    font-style: oblique;
+    color:white;
+    position: relative;
+    bottom:5px;
+    display: inline;
+
+}
+#home .para{
+    color:blue;
+}
+
+.btn{
+    width:120px;
+    margin-left:222px;
+    position:relative;
+    top:10px;
+    border-radius: 13px;
+    padding:6px;
+    background-color: red;
+    color:whitesmoke;
+    font-weight: bold;
+    cursor:pointer;
+    font-size: 1.2rem;
+    animation-name: btn;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    animation-delay:2s;
+    font-style: italic;
+}
+@keyframes btn {
+    0%{
+        background-color: red;
+        color:whitesmoke;
+    }
+    20%{
+        background-color:cornflowerblue;
+        color:darkslateblue;
+        font-weight: bold;
+    }
+    40%{
+        background-color:cornflowerblue;
+        color:blue;
+        font-weight: bold;
+    }
+    60%{
+        background-color:cornflowerblue;
+        color:coral;
+        font-weight: bold;
+    }
+    80%{
+        background-color:cyan;
+        color:gold;
+        font-weight: bold;
+    }
+    100%{
+        background-color:red;
+        color:whitesmoke;
+        font-weight: bold;
+        
+    }
+}
+.spn{
+    color:white;
+    background-color: crimson;
+    animation-name: spn;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+
+}
+@keyframes spn{
+    0%{
+        background-color: crimson;
+        color:white;
+    }
+    20%{
+        background-color:blue;
+        color:chartreuse;
+    }
+    40%{
+        background-color:blueviolet;
+        color:yellow;
+        
+    }
+    60%{
+        background-color:white;
+        color:red;
+    }
+    80%{
+        background-color:yellow;
+        color:black;
+    }
+    100%{
+        background-color:lime;
+        color:coral;
+    }
+    
+}
+h2{
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.client{
+    
+    height:200px;
+    display: flex;
+    overflow:hidden;
+}
+.img img{
+    height:200px;
+    margin:3px;
+
+}
+#img{
+    width:300px;
+    height:200px;
+}
+.features{
+    display:flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: bold;
+    color:red;
+    font-style: italic;
+
+}
+h5{
+    text-align: center;
+    font-size: 1.5rem;
+}
+.log{
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+ .log .log1 img{
+width:200px;
+height:200px;
+border:1px solid yellowgreen;
+border-radius:10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:4px solid black;
+    
+
+}
+.Contact input
+{
+    text-align: center; 
+    margin-bottom: 10px;
+    height:24px;
+    width:302px;
+    color:red;
+    font-weight: bold;
+}
+textarea{
+    width:305px;
+    font-weight: bold;
+    color:red;
+    
+}
+.sub{
+    padding:10px;
+    border:2px solid black;
+    border-radius: 20px;
+    background-color: red;
+    color:white;
+    font-weight:bold;
+}
+
+
